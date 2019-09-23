@@ -1,0 +1,18 @@
+{
+  "name": "algo-expert",
+  "version": "1.0.0",
+  "description": "algorithm and data structures review",
+  "scripts": {
+    "test": "NODE_ENV='test' mocha  ./tests --recursive --watch --require babel-polyfill --require babel-register"
+  },
+  "author": "@michelle-hoang",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.4.0",
+    "mocha": "^6.2.0"
+  }
+}
