@@ -3,7 +3,7 @@ const expect = chai.expect;
 
 const sort = require('../data-structures/sort');
 
-describe('string test method', () => {
+xdescribe('string test method', () => {
     xit('Test Case #1', function() {
         chai.expect(sort.bubbleSort([1])).to.deep.equal([1]);
       });

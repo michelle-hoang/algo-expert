@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "algorithm and data structures review",
   "scripts": {
-    "test": "NODE_ENV='test' mocha  ./tests --recursive --watch --require babel-polyfill --require babel-register"
+    "test": "NODE_ENV='test' mocha  ./tests/bst-spec.js --watch --require babel-polyfill --require babel-register",
+    "all tests": "NODE_ENV='test' mocha  ./tests --recursive --watch --require babel-polyfill --require babel-register"
   },
   "author": "@michelle-hoang",
   "license": "ISC",
